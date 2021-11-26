@@ -1,2 +1,0 @@
-# Virus-Simulator
-Virus simulation
