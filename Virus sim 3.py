@@ -3,12 +3,6 @@ country_list = []
 country_infected_percents = []
 country_in_lockdown = []
 
-NZ = ("New Zealand")
-FR = ("France")
-JP = ("Japan")
-country_list.append(NZ)
-country_list.append(FR)
-country_list.append(JP)
 
 #Function to ask user if they want to add a country or not
 def main():
