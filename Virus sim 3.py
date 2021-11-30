@@ -1,4 +1,4 @@
-#List to hold all country objects
+#List to hold all country objects.
 country_list = []
 country_infected_percents = []
 country_in_lockdown = []
