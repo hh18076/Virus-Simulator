@@ -40,6 +40,17 @@ def print_details(self):
         details += "is not in lockdown."
     return details
 
+#Function to ask the user which country to help
+def ask_country_to_assist():
+    ask_country = "Which country would you like to assist? Choose from the following:"
+    for country in country_list:
+        ask_country += "\n" + country.country_name
+    while True:
+        country_to_help = input(ask_country)
+        for country in country_list:
+            if country_to_help == country.country_name:
+                return country_to_help
+
 
 
 
